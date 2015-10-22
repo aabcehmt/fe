@@ -45,7 +45,7 @@ class PersonasController extends Controller
          */
         public function create()
         {
-            #modificamos esta linea
+            #GGGGGG
             $whereAmI = $this->ruta . $this->listOneBreadcrumb('crear persona','',1);
 
             $localidades = Localidad::listByFullName();
