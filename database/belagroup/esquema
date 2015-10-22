@@ -1,0 +1,13 @@
+
+
+paises --> provincias --> departamentos --> localidades --> calles --> domicilios
+
+personas
+|--> domicilio
+
+
+Funciones de query en Eloquent
+
+	-$user->push();
+	-$user->touch();
+	-$user->update( ['una_columna' => 'un_valor'] )
