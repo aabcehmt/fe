@@ -110,6 +110,27 @@ return [
         'password'          => 'Contraseña',
         'password_confirm'  => 'Confirme la contraseña',
         'user_type'         => 'Tipo de Usuario',
+
+
+        'legal_status' => [
+            'label'         => 'Tipo de Persona',
+            'placeholder'   => 'Seleccione el tipo de persona',
+            'values'        => [
+
+                'legal_entity'      => 'Persona Jurídica',
+                'physical_entity'   => 'Persona Física',
+            ],
+        ],
+
+        'gender' => [
+            'label'         => 'Género',
+            'placeholder'   => 'Seleccione el Género',
+            'values'        => [
+
+                'female' => 'Femenino',
+                'male' => 'Masculino',
+            ],
+        ],
     ],
 
 ];

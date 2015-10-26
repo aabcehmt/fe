@@ -1,6 +1,48 @@
 
 <div class="row">
 	<div class="col-lg-6 col-md-6 col-sd-12 col-xs-12">
+		<div class="form-group @if ($errors->has('personeria')) {{ 'has-error has-feedback' }} @endif">
+			{!! Form::label('personeria', trans('validation.attributes.legal_status.label'), array('class' => 'awsome') ) !!} 
+			{!! Form::select( 'personeria', 
+								[ 
+									0 => trans('validation.attributes.legal_status.values.legal_entity'), 
+									1 => trans('validation.attributes.legal_status.values.physical_entity')
+								], 
+								null, 
+								[ 
+									'class' => 'form-control', 
+									'placeholder' => trans('validation.attributes.legal_status.placeholder') 
+								]
+							) !!}
+			@if ($errors->has('personeria'))
+				<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+		  		<span id="personeria_error" class="text-danger"><small><em>{{ $errors->first('personeria') }}</em></small></span>
+			@endif
+		</div>
+	</div>
+
+	<div class="col-lg-6 col-md-6 col-sd-12 col-xs-12">
+		<div class="form-group @if ($errors->has('genero')) {{ 'has-error has-feedback' }} @endif">
+			{!! Form::label('genero', trans('validation.attributes.gender.label'), array('class' => 'awsome') ) !!} 
+			{!! Form::select( 'genero', 
+								[ 
+									0 => trans('validation.attributes.gender.values.female'), 
+									1 => trans('validation.attributes.gender.values.male')
+								],
+								null, 
+								[ 
+									'class' => 'form-control', 
+									'placeholder' => trans('validation.attributes.gender.placeholder') 
+								]
+							) !!}
+			@if ($errors->has('genero'))
+				<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+		  		<span id="genero_error" class="text-danger"><small><em>{{ $errors->first('genero') }}</em></small></span>
+			@endif
+		</div>
+	</div>
+
+	<div class="col-lg-6 col-md-6 col-sd-12 col-xs-12">
 		<div class="form-group @if ($errors->has('nombre_persona')) {!! 'has-error has-feedback' !!} @endif">
 
 			{!! Form::label('nombre_persona','Nombre', array('class' => 'awsome') ) !!} 
@@ -39,8 +81,6 @@
 		</div>
 	</div>
 </div>
-
-
 
 @include('admin.cities.calles.partials.fields')
 
