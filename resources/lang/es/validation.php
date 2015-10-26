@@ -105,32 +105,30 @@ return [
     */
 
     'attributes' => [
-        'email'             => 'Correo Electrónico',
-        'name'              => 'Nombre de Usuario',
-        'password'          => 'Contraseña',
-        'password_confirm'  => 'Confirme la contraseña',
-        'user_type'         => 'Tipo de Usuario',
-
-
+        'email'             => 'Correo Electrónico',        
         'legal_status' => [
             'label'         => 'Tipo de Persona',
             'placeholder'   => 'Seleccione el tipo de persona',
             'values'        => [
-
                 'legal_entity'      => 'Persona Jurídica',
                 'physical_entity'   => 'Persona Física',
             ],
         ],
-
+        'name'              => 'Nombre de Usuario',
+        'forgot'            => 'Olvido su contraseña?',
         'gender' => [
             'label'         => 'Género',
             'placeholder'   => 'Seleccione el Género',
             'values'        => [
-
                 'female' => 'Femenino',
                 'male' => 'Masculino',
             ],
         ],
+        'password'          => 'Contraseña',
+        'password_confirm'  => 'Confirme la contraseña',
+        'remember-me'       => 'Recordarme',
+        'sing-in'           => 'Acceder',
+        'user_type'         => 'Tipo de Usuario'
     ],
 
 ];
