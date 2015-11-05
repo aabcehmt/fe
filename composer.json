@@ -4,12 +4,14 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "alpha",
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "laravelcollective/html": "5.1.*",
         "twbs/bootstrap": "^3.3",
-        "jstayton/google-maps-geocoder": "*"
+        "jstayton/google-maps-geocoder": "*",
+        "tordek/afiphp": "0.1.*"
     },
     "require-dev": {
         "fzaninotto/faker": "1.5.*@dev",
@@ -18,6 +20,20 @@
         "phpspec/phpspec": "~2.1",
         "bootstrap-select/bootstrap-select": "1.7.*"
     },
+    "repositories":[
+        {
+            "type":"package",
+            "package":{
+                "name":"tordek/afiphp",
+                "version": "dev",
+                "source":{
+                    "type":"git",
+                    "url":"bitbucket.org/tordek/afiphp",
+                    "reference":"dev"
+                }
+            }
+        }
+    ],
     "autoload": {
         "classmap": [
             "database"

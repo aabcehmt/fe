@@ -1,0 +1,35 @@
+SoapClient::__set_state(array(
+   'trace' => 1,
+   '_exceptions' => false,
+   '_encoding' => 'UTF-8',
+   '_stream_context' => NULL,
+   '_soap_version' => 1,
+   'sdl' => NULL,
+   '__last_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ar.gov.afip.dif.FEV1/"><SOAP-ENV:Body><ns1:FECAESolicitar><ns1:Auth><ns1:Token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSI5Njc4NDA3MTYiIHNyYz0iQ049d3NhYWhvbW8sIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxNDQ2NzYxMzAwIiBleHBfdGltZT0iMTQ0NjgwNDU2MCIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPW5pbSwgU0VSSUFMTlVNQkVSPUNVSVQgMjAzMTk5NDQ3NjIsIENOPWFhYmNlaG10IiBzZXJ2aWNlPSJ3c2ZlIiByZWdtZXRob2Q9IjIyIiBlbnRpdHk9IjMzNjkzNDUwMjM5IiBhdXRobWV0aG9kPSJjbXMiPgogICAgICAgICAgICA8cmVsYXRpb25zPgogICAgICAgICAgICAgICAgPHJlbGF0aW9uIHJlbHR5cGU9IjQiIGtleT0iMjAzMTk5NDQ3NjIiLz4KICAgICAgICAgICAgPC9yZWxhdGlvbnM+CiAgICAgICAgPC9sb2dpbj4KICAgIDwvb3BlcmF0aW9uPgo8L3Nzbz4KCg==</ns1:Token><ns1:Sign>lU/cOYcDQorlMVsowZ/7HT4rQloUxjUhFtcgH7Wivqrd+GA62EHDrnSNFclWpoCKMUtpnCCh2aqIAQpYtx1JYzA/d1Y/0QG3DqFWM6nXVDOR9axwFg6mMCwdea/9dOSAwXe/Vt99PFUiA+6ZqR/2ImjHoR0dDQMPv64Y6pqFj/I=</ns1:Sign><ns1:Cuit>20319944762</ns1:Cuit></ns1:Auth><ns1:FeCAEReq><ns1:FeCabReq><ns1:CantReg>1</ns1:CantReg><ns1:PtoVta>1</ns1:PtoVta><ns1:CbteTipo>6</ns1:CbteTipo></ns1:FeCabReq><ns1:FeDetReq><ns1:FECAEDetRequest><ns1:Concepto>1</ns1:Concepto><ns1:DocTipo>96</ns1:DocTipo><ns1:DocNro>26467801</ns1:DocNro><ns1:CbteDesde>2</ns1:CbteDesde><ns1:CbteHasta>2</ns1:CbteHasta><ns1:CbteFch>20151105</ns1:CbteFch><ns1:ImpTotal>159.05</ns1:ImpTotal><ns1:ImpTotConc>0</ns1:ImpTotConc><ns1:ImpNeto>125</ns1:ImpNeto><ns1:ImpOpEx>0</ns1:ImpOpEx><ns1:ImpTrib>7.8</ns1:ImpTrib><ns1:ImpIVA>26.25</ns1:ImpIVA><ns1:FchServDesde></ns1:FchServDesde><ns1:FchServHasta></ns1:FchServHasta><ns1:FchVtoPago></ns1:FchVtoPago><ns1:MonId>PES</ns1:MonId><ns1:MonCotiz>1</ns1:MonCotiz><ns1:Tributos><ns1:Tributo><ns1:Id>99</ns1:Id><ns1:Desc>Impuesto municipal matanza</ns1:Desc><ns1:BaseImp>150</ns1:BaseImp><ns1:Alic>5.2</ns1:Alic><ns1:Importe>7.8</ns1:Importe></ns1:Tributo></ns1:Tributos><ns1:Iva><ns1:AlicIva><ns1:Id>5</ns1:Id><ns1:BaseImp>125</ns1:BaseImp><ns1:Importe>26.25</ns1:Importe></ns1:AlicIva></ns1:Iva></ns1:FECAEDetRequest></ns1:FeDetReq></ns1:FeCAEReq></ns1:FECAESolicitar></SOAP-ENV:Body></SOAP-ENV:Envelope>
+',
+   'httpsocket' => NULL,
+   '_use_proxy' => 0,
+   'httpurl' => NULL,
+   '__last_request_headers' => 'POST /wsfev1/service.asmx HTTP/1.1
+Host: wswhomo.afip.gov.ar
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.10-1+deb.sury.org~trusty+1
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://ar.gov.afip.dif.FEV1/FECAESolicitar"
+Content-Length: 2387
+
+',
+   '__last_response_headers' => 'HTTP/1.1 200 OK
+Date: Thu, 05 Nov 2015 22:09:25 GMT
+Server: Microsoft-IIS/6.0
+MicrosoftOfficeWebServer: 5.0_Pub
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1008
+',
+   '__last_response' => '<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FECAESolicitarResponse xmlns="http://ar.gov.afip.dif.FEV1/"><FECAESolicitarResult><FeCabResp><Cuit>20319944762</Cuit><PtoVta>1</PtoVta><CbteTipo>6</CbteTipo><FchProceso>20151105190611</FchProceso><CantReg>1</CantReg><Resultado>R</Resultado><Reproceso>N</Reproceso></FeCabResp><FeDetResp><FECAEDetResponse><Concepto>1</Concepto><DocTipo>96</DocTipo><DocNro>26467801</DocNro><CbteDesde>2</CbteDesde><CbteHasta>2</CbteHasta><CbteFch>20151105</CbteFch><Resultado>R</Resultado><Observaciones><Obs><Code>10016</Code><Msg>El nÃºmero de comprobante no se corresponde con el prÃ³ximo a autorizar. Consultar metodo FECompUltimoAutorizado.</Msg></Obs></Observaciones><CAE /><CAEFchVto /></FECAEDetResponse></FeDetResp></FECAESolicitarResult></FECAESolicitarResponse></soap:Body></soap:Envelope>
+',
+))

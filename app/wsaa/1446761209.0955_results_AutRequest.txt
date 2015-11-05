@@ -1,0 +1,174 @@
+SoapFault::__set_state(array(
+   'message' => 'Function ("FECAESolicitar") is not a valid method for this service',
+   'string' => '',
+   'code' => 0,
+   'file' => '/home/vagrant/Code/fe/app/wsaa/factura.php',
+   'line' => 218,
+   'trace' => 
+  array (
+    0 => 
+    array (
+      'file' => '/home/vagrant/Code/fe/app/wsaa/factura.php',
+      'line' => 218,
+      'function' => '__call',
+      'class' => 'SoapClient',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'FECAESolicitar',
+        1 => 
+        array (
+          0 => 
+          array (
+            'Auth' => 
+            array (
+              'Token' => 
+              SimpleXMLElement::__set_state(array(
+                 0 => 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSI3MzM1Mzk1MTUiIHNyYz0iQ049d3NhYWhvbW8sIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxNDQ2NzYxMTQ5IiBleHBfdGltZT0iMTQ0NjgwNDQwOSIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPW5pbSwgU0VSSUFMTlVNQkVSPUNVSVQgMjAzMTk5NDQ3NjIsIENOPWFhYmNlaG10IiBzZXJ2aWNlPSJ3c2ZlIiByZWdtZXRob2Q9IjIyIiBlbnRpdHk9IjMzNjkzNDUwMjM5IiBhdXRobWV0aG9kPSJjbXMiPgogICAgICAgICAgICA8cmVsYXRpb25zPgogICAgICAgICAgICAgICAgPHJlbGF0aW9uIHJlbHR5cGU9IjQiIGtleT0iMjAzMTk5NDQ3NjIiLz4KICAgICAgICAgICAgPC9yZWxhdGlvbnM+CiAgICAgICAgPC9sb2dpbj4KICAgIDwvb3BlcmF0aW9uPgo8L3Nzbz4KCg==',
+              )),
+              'Sign' => 
+              SimpleXMLElement::__set_state(array(
+                 0 => 'ej606tqp/PmIEpgO1baI1HNQ3LPIKJY7Hnt9IxxoPQi6WXsaFmeFItZh2JLkkI1eUhigR2UNlVps4VhhRL+aDDOINf2LBTFpyur3FKLtJmUmWrZstrd08leb2UxOWTxl27tGuMAyrD+D3ZLAkbP5aG7D+Uq1vxTI0J3/OoaXq48=',
+              )),
+              'Cuit' => 20319944762,
+            ),
+            'FeCAEReq' => 
+            array (
+              'FeCabReq' => 
+              array (
+                'CantReg' => 1,
+                'PtoVta' => 1,
+                'CbteTipo' => 6,
+              ),
+              'FeDetReq' => 
+              array (
+                'FECAEDetRequest' => 
+                array (
+                  'Concepto' => 1,
+                  'DocTipo' => 96,
+                  'DocNro' => 26467801,
+                  'CbteDesde' => 2,
+                  'CbteHasta' => 2,
+                  'CbteFch' => '20151105',
+                  'ImpTotal' => 159.05000000000001,
+                  'ImpTotConc' => 0,
+                  'ImpNeto' => 125,
+                  'ImpOpEx' => 0,
+                  'ImpTrib' => 7.7999999999999998,
+                  'ImpIVA' => 26.25,
+                  'FchServDesde' => '',
+                  'FchServHasta' => '',
+                  'FchVtoPago' => '',
+                  'MonId' => 'PES',
+                  'MonCotiz' => 1,
+                  'Tributos' => 
+                  array (
+                    'Tributo' => 
+                    array (
+                      'Id' => 99,
+                      'Desc' => 'Impuesto municipal matanza',
+                      'BaseImp' => 150,
+                      'Alic' => 5.2000000000000002,
+                      'Importe' => 7.7999999999999998,
+                    ),
+                  ),
+                  'Iva' => 
+                  array (
+                    'AlicIva' => 
+                    array (
+                      'Id' => 5,
+                      'BaseImp' => 125,
+                      'Importe' => 26.25,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'file' => '/home/vagrant/Code/fe/app/wsaa/factura.php',
+      'line' => 218,
+      'function' => 'FECAESolicitar',
+      'class' => 'SoapClient',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 
+        array (
+          'Auth' => 
+          array (
+            'Token' => 
+            SimpleXMLElement::__set_state(array(
+               0 => 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSI3MzM1Mzk1MTUiIHNyYz0iQ049d3NhYWhvbW8sIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxNDQ2NzYxMTQ5IiBleHBfdGltZT0iMTQ0NjgwNDQwOSIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPW5pbSwgU0VSSUFMTlVNQkVSPUNVSVQgMjAzMTk5NDQ3NjIsIENOPWFhYmNlaG10IiBzZXJ2aWNlPSJ3c2ZlIiByZWdtZXRob2Q9IjIyIiBlbnRpdHk9IjMzNjkzNDUwMjM5IiBhdXRobWV0aG9kPSJjbXMiPgogICAgICAgICAgICA8cmVsYXRpb25zPgogICAgICAgICAgICAgICAgPHJlbGF0aW9uIHJlbHR5cGU9IjQiIGtleT0iMjAzMTk5NDQ3NjIiLz4KICAgICAgICAgICAgPC9yZWxhdGlvbnM+CiAgICAgICAgPC9sb2dpbj4KICAgIDwvb3BlcmF0aW9uPgo8L3Nzbz4KCg==',
+            )),
+            'Sign' => 
+            SimpleXMLElement::__set_state(array(
+               0 => 'ej606tqp/PmIEpgO1baI1HNQ3LPIKJY7Hnt9IxxoPQi6WXsaFmeFItZh2JLkkI1eUhigR2UNlVps4VhhRL+aDDOINf2LBTFpyur3FKLtJmUmWrZstrd08leb2UxOWTxl27tGuMAyrD+D3ZLAkbP5aG7D+Uq1vxTI0J3/OoaXq48=',
+            )),
+            'Cuit' => 20319944762,
+          ),
+          'FeCAEReq' => 
+          array (
+            'FeCabReq' => 
+            array (
+              'CantReg' => 1,
+              'PtoVta' => 1,
+              'CbteTipo' => 6,
+            ),
+            'FeDetReq' => 
+            array (
+              'FECAEDetRequest' => 
+              array (
+                'Concepto' => 1,
+                'DocTipo' => 96,
+                'DocNro' => 26467801,
+                'CbteDesde' => 2,
+                'CbteHasta' => 2,
+                'CbteFch' => '20151105',
+                'ImpTotal' => 159.05000000000001,
+                'ImpTotConc' => 0,
+                'ImpNeto' => 125,
+                'ImpOpEx' => 0,
+                'ImpTrib' => 7.7999999999999998,
+                'ImpIVA' => 26.25,
+                'FchServDesde' => '',
+                'FchServHasta' => '',
+                'FchVtoPago' => '',
+                'MonId' => 'PES',
+                'MonCotiz' => 1,
+                'Tributos' => 
+                array (
+                  'Tributo' => 
+                  array (
+                    'Id' => 99,
+                    'Desc' => 'Impuesto municipal matanza',
+                    'BaseImp' => 150,
+                    'Alic' => 5.2000000000000002,
+                    'Importe' => 7.7999999999999998,
+                  ),
+                ),
+                'Iva' => 
+                array (
+                  'AlicIva' => 
+                  array (
+                    'Id' => 5,
+                    'BaseImp' => 125,
+                    'Importe' => 26.25,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+   'previous' => NULL,
+   'faultstring' => 'Function ("FECAESolicitar") is not a valid method for this service',
+   'faultcode' => 'Client',
+   'faultcodens' => 'http://schemas.xmlsoap.org/soap/envelope/',
+))

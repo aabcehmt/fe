@@ -1,0 +1,38 @@
+stdClass::__set_state(array(
+   'FECAESolicitarResult' => 
+  stdClass::__set_state(array(
+     'FeCabResp' => 
+    stdClass::__set_state(array(
+       'Cuit' => 20319944762,
+       'PtoVta' => 1,
+       'CbteTipo' => 6,
+       'FchProceso' => '20151105190611',
+       'CantReg' => 1,
+       'Resultado' => 'R',
+       'Reproceso' => 'N',
+    )),
+     'FeDetResp' => 
+    stdClass::__set_state(array(
+       'FECAEDetResponse' => 
+      stdClass::__set_state(array(
+         'Concepto' => 1,
+         'DocTipo' => 96,
+         'DocNro' => 26467801,
+         'CbteDesde' => 2,
+         'CbteHasta' => 2,
+         'CbteFch' => '20151105',
+         'Resultado' => 'R',
+         'Observaciones' => 
+        stdClass::__set_state(array(
+           'Obs' => 
+          stdClass::__set_state(array(
+             'Code' => 10016,
+             'Msg' => 'El nÃºmero de comprobante no se corresponde con el prÃ³ximo a autorizar. Consultar metodo FECompUltimoAutorizado.',
+          )),
+        )),
+         'CAE' => '',
+         'CAEFchVto' => '',
+      )),
+    )),
+  )),
+))
